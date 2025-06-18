@@ -1,0 +1,37 @@
+{
+	"name": "AzureSqlTable12",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SNo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Productname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Year",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Sales",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ProductSales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

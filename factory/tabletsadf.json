@@ -1,0 +1,9 @@
+{
+	"name": "tabletsadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "00a9ca39-54c2-44b6-8474-d28d2e9fc2ca",
+		"tenantId": "bcb8f48d-9671-40c1-96d1-8dcff1d43030"
+	}
+}
